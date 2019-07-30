@@ -1,1 +1,1 @@
-#Solving Katas from codewars.com
+**Solving Katas from codewars.com**
