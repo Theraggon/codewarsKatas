@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 namespace SumOfABeach
 {
@@ -10,6 +11,10 @@ namespace SumOfABeach
 
 		public static int SumOfABeach(string s)
 		{
+			//Regex way
+			//Regex regex = new Regex(string.Join('|', words));
+			//return regex.Matches(s.ToLower()).Count;
+
 			var wordsSet = new SortedSet<string>(words);
 			s = s.ToLower();
 			int result = 0;
